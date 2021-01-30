@@ -2,10 +2,10 @@ import { combineReducers } from 'redux'
 
 // Import all of the reducers for this app
 
-
+const identityReducer = (state = null) => state
 // Combine reducers
 const rootReducer = combineReducers({
-  changeMe: (state = null, action) => state
+  //TODO
 })
 
 export default rootReducer
