@@ -16,7 +16,7 @@ const initialState = {
 
 ReactDOM.render(
   <Provider store={configureStore(initialState)}>
-    <Router histroy={histroy}>
+    <Router histroy={history}>
       <Switch>
         TODO
       </Switch>
